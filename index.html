@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
-    <h1>소환사 검색</h1>
-    <div class="input-group">
-        <input type="text" placeholder='검색할 소환사 명을 입력하세요' id="txtName">
-        <button id="search">검색</button>
+    <div class="wrap">
+        <img src="./images/logo.png" alt="League Of Legends" class="CLogo" width="50" height="50">
+        <h1 class="title">소환사 전적 검색</h1>
+        <div class="input-group">
+            <input type="text" placeholder='검색할 소환사 명을 입력하세요' id="txtName">
+            <button id="search"></button>
+        </div>
+        <div id="summoner" style="display: none;">
+            
+        </div>
+        <div id="record" style="display: none;">
+            
+        </div>
     </div>
+    <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
